@@ -1,0 +1,54 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+header{
+	font-weight: bold;
+}
+
+h1{
+	font-size: 210%;
+	font-weight: 400;
+}
+
+p{
+	line-height: 1.55;
+	margin-bottom: 20px;
+}
+
+figcaption{
+	color:#777;
+}
+
+img{
+	width: 100%;
+}
+
+footer{
+	background-color: grey;
+}
+
+.container{
+	width:40%;
+	padding:20px;
+	margin: 0 auto;
+}
+
+@media only screen and (max-width: 1400px){
+	.container{
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width: 400px){
+	.container{
+		width: 90%;
+	}
+}
